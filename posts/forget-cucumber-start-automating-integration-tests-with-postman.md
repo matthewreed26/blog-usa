@@ -14,7 +14,7 @@ image:
 
 # What is wrong with Cucumber?
 
-In short, nothing is wrong with Cucumber. For a long time now many of us have been productively using Cucumber or one of its variations for Acceptance Test Driven Development (ATDD). The English-written tests keep our applications from deploying breaking changes into Production. This approach of bridging the business and development sides is going to continue even after this blog. Yet, hardly every Product Owner is actively writing and maintaining these tests on their projects. Only the high-level test results come up anyway when the CI/CD pipeline runs, so developers are often needed to investigate no matter what.
+In short, nothing is wrong with Cucumber. For a long time now many of us have been productively using Cucumber or one of its variations for Acceptance Test Driven Development (ATDD). The English-written tests are the gates to our applications which keep breaking changes out of the codebase. This approach of bridging the business and development sides is going to continue even after this blog. Yet, hardly every Product Owner is actively writing and maintaining these tests on their projects. Only the high-level test results come up anyway when the CI/CD pipeline runs, so developers are often needed to investigate no matter what.
 
 Why does there need to be such a syntactically complex system in place for a group who looks at the feature file only every few months?
 
@@ -37,11 +37,22 @@ The finished suite contains only one Postman environment but others would be cri
 
 # Running within Postman
 
+To ensure all the tests are passing in the Postman app before we move any further, under the T.LY API right-pointing arrow that opens the expanded menu hit the blue "Run" button as is shown below.
+
 ### How to Run Written Tests
 ![How to Run Written Tests]()
 
+Select any of the available options located in the next screen including desired tests for the run order.
+
+### Tests Options Screen
+![Tests Options Screen]()
+
+Hit the blue "Run T.LY API" button to start running the tests. The outcome should be all green/passed. It is important to note how each of the individual outcomes have a high-level description. These are the same outputs that will be displayed in the pipeline's console later.
+
 ### Test Suite Passing
 ![Test Suite Passing]()
+
+If the tests fail here, there is a good likelihood that they will not pass in the pipeline either. This is the place to debug/modify any failing tests and can be returned to later on.
 
 # Running using Newman with CI/CD
 
