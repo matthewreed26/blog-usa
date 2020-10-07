@@ -35,6 +35,14 @@ The finished suite contains only one Postman environment but others would be cri
 ### T.LY Postman Shorten GET Call
 ![T.LY Postman Shorten GET Call]()
 
+# Running within Postman
+
+### How to Run Written Tests
+![How to Run Written Tests]()
+
+### Test Suite Passing
+![Test Suite Passing]()
+
 # Running using Newman with CI/CD
 
 
