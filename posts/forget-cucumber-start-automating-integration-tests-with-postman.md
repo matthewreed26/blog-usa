@@ -22,9 +22,17 @@ Well, good news everyone! There actually is another way to write integration tes
 
 # The Postman Alternative
 
-The point of this blog is not to compare apples to oranges, or Cucumber to Postman tests, but instead will offer insights to utilizing the Postman alternative within an already existing API. The [finished Postman test suite](https://github.com/matthewreed26/postman-tests-tly) created for demonstration purposes adds integration tests to a pre-composed [Postman test suite](https://t.ly/docs/collection.json) provided by the [T.LY URL Shortening](https://t.ly/docs/) API. These integration tests cover a few happy path GET and POST calls as well as their error scenarios.
+The point of this blog is not to compare apples to oranges, or Cucumber to Postman tests, but instead will offer insights to utilizing the Postman alternative within an already existing API. For a great overview of writing test basics, the ["Getting started with tests"](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/#getting-started-with-tests) from Postman is an essential resource. Basically, JavaScript-based functions placed under the "Tests" tab within a request can be executed in succession. The built-in `pm` library is not always intuitive to use but there is ample documentation and code examples. It uses [the BDD Chai testing framework](https://www.chaijs.com/) to make assertions via chains of `to.have` like so:
 
-<i>Feel free to dive more into the finished tests which are using [the BDD Chai testing framework](https://www.chaijs.com/). They have examples including ensuring correct response statuses, folder-level configuration, equating request and response data, setting variables from one and using them in subsequent tests, verifying time stamps, setting Pre-request Scripts, and more. [Postman test writing basics](https://blog.postman.com/writing-tests-in-postman/) can be found on their website. (Or check out another [similar blog](https://dev.to/scampiuk/using-postman-s-cli-tool-for-api-testing-newman-5fn1) from a little while back, however it does not go all the way into CI/CD pipelines with Newman like we will cover later on.)</i>
+```javascript
+pm.test("Status code is 200", function () {
+  pm.response.to.have.status(200);
+});
+```
+
+(For more on writing tests, check out another [similar blog](https://dev.to/scampiuk/using-postman-s-cli-tool-for-api-testing-newman-5fn1) however note it does not go all the way into CI/CD pipelines with Newman like will be covered later here.)
+
+For demonstration purposes, integration tests were added to a series of pre-composed [Postman requests](https://t.ly/docs/collection.json) provided by the [T.LY URL Shortening](https://t.ly/docs/) API. The [finished Postman test suite](https://github.com/matthewreed26/postman-tests-tly) covers a few happy path GET and POST calls as well as their error scenarios. There are examples including ensuring correct response statuses, folder-level configuration, equating request and response data, setting variables from one and using them in subsequent tests, verifying time stamps, setting Pre-request Scripts, and more.
 
 ### T.LY API Postman Collection
 ![T.LY API Postman Collection]()
