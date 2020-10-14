@@ -66,7 +66,20 @@ If the tests fail here, there is a good likelihood that they will not pass in th
 
 # Running using Newman with CI/CD
 
+To run these tests outside of Postman there are two key files needed:
 
+1. The `.postman_collection.json` which contains the test suite's requests information including path, params, and body for each
+1. The `.postman_environment.json` which contains the configured environment variables
+
+Export the collection via the "..." a.k.a. "View More Actions" in the collection root.
+
+### Exporting the Postman Collection
+![Exporting the Postman Collection]()
+
+Download the environment via the "Environment Management" pop-up in the upper-right corner of Postman.
+
+### Downloading the Postman Environment
+![Downloading the Postman Environment]()
 
 <u>Sources</u>
 
