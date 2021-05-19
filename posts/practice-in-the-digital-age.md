@@ -38,8 +38,10 @@ On this slippery slope, the real pain is existential as the goals are always mov
 
 ## Practice What You Preach
 
-In this aimlessness, we have partially lost what it means to practice well. So what is a good fallback plan? What fundamental techniques and concepts do we return to when we fail? The answer comes down to
+In this aimlessness, we have partially lost what it means to practice well. So what is a good fallback plan? What fundamental techniques and concepts do we return to when we fail? The answer ultimately comes down to what skill set an individual wants to excel or improve in. In the analogy we have been using thus far, it was loosely based on a player's physical sport classification. And in the software world, these similarly are based on physical classifications around Systems, Product, Data, Operations, Quality Assurance (QA), Solutions or Sales, IT, Security and Compliance, Management.
 
-an individual's strengths and weaknesses. As a skill is like a muscle, any particular muscle group (or skill set) needs to be worked out to be kept strong.
+## Arts and Crafts
 
-We often take language for granted once we can do it instinctually. Still, there are some members just learning how to talk for the first time or that may only speak in short phrases. And how quickly we forget while conversing that communication is a spectrum in our society!
+An example we often take for granted once done instinctually is language. Still, there are some members just learning how to talk for the first time or that may only speak in short phrases. And how quickly we forget while conversing that communication is a spectrum in our society!
+
+In the very least, try to become more aware of what you practice. Alternatively, ask those you are close with in social and professional circles what they observe about your craft. You might realize you have a lot to teach, and a lot to learn.
