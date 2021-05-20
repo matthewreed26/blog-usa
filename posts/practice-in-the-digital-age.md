@@ -38,10 +38,23 @@ On this slippery slope, the real pain is existential as the goals are always mov
 
 ## Practice What You Preach
 
-In this aimlessness, we have partially lost what it means to practice well. So what is a good fallback plan? What fundamental techniques and concepts do we return to when we fail? The answer ultimately comes down to what skill set an individual wants to excel or improve in. In the analogy we have been using thus far, it was loosely based on a player's physical sport classification. And in the software world, these similarly are based on physical classifications around Systems, Product, Data, Operations, Quality Assurance (QA), Solutions or Sales, IT, Security and Compliance, Management.
+In this aimlessness, we have partially lost what it means to practice well. So what is a good fallback plan? What fundamental techniques and concepts do we return to when we fail? The answer ultimately comes down to what skill set an individual wants to excel or improve in.
 
-## Arts and Crafts
+As a skill is like a muscle, any particular muscle group (or skill set) needs to be developed over time and worked out to be kept strong. An example we often take for granted once done instinctually is language. Still, there are some members just learning how to talk for the first time or that may only speak in short phrases. And how quickly we forget while conversing that communication is a spectrum in our society!
 
-An example we often take for granted once done instinctually is language. Still, there are some members just learning how to talk for the first time or that may only speak in short phrases. And how quickly we forget while conversing that communication is a spectrum in our society!
+In the analogy we have been using thus far, it has been loosely based on various sport classifications. In each, mutually-agreed regulations act as enabling constraints for players that births a variety of forms and ways to play the game while still scoring. It only takes a buzzer-beating fadeaway jump shot or the tight spiral on a complete Hail Mary pass to confirm there is exceptional beauty in sports. No wonder we idolize certain athletes as peak human physicality for their impressive abilities.
+
+## The Final Stretch
+
+The spotlight may not be as bright, but, in the digital world, there still are a variety of software engineering classifications to exercise one's abilities. At a high-level, anyone can look around the job market and find roles in everything from Systems to Product to Data on through to areas like Operations, Quality Assurance (QA), and Security/Compliance. Each role demands a nearly similar set of essentials like a computer sciences degree and/or a certain number of years in the field. Yet, it is up to the individual to actualize their practice's ideal.
+
+We each practice a craft to attempt this ideal formation. And the software crafting community back in 2009 outlined its values we should all aspire to:
+
+- Not only working software, but also well-crafted software
+- Not only responding to change, but also steadily adding value
+- Not only individuals and interactions, but also a community of professionals
+- Not only customer collaboration, but also productive partnerships
 
 In the very least, try to become more aware of what you practice. Alternatively, ask those you are close with in social and professional circles what they observe about your craft. You might realize you have a lot to teach, and a lot to learn.
+
+[Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
