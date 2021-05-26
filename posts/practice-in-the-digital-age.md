@@ -28,7 +28,7 @@ The truth, though, is we are human. The abilities to transform ourselves and get
 
 A loss of momentum and traction is more than just physical at this point, it is psychological. And, confidence in one's abilities is a whole different ball game. If an ice skater is constantly falling, they are going to be frustrated when forced to slow down and return to the fundamental techniques. But it is a must before learning to pull off more challenging manuevers.
 
-Is it possible to recognize by ourselves if we are falling too much? When we have a fast feedback loop, like the experience of pain after hitting the ground, we may realize it on our own. Often it requires the perspective of a coach, or mentor, to tell us when we need to slow it down or focus on a particular area. They help set the boundaries which enable growth to the next level.
+Is it possible by ourselves to recognize if we are falling too much? When we have a fast feedback loop, like the experience of pain after hitting the ground, we may realize it on our own. Often it requires the perspective of a coach, or mentor, to tell us when we need to slow it down or focus on a particular area. They help set the boundaries which enable growth to the next level.
 
 ## Constantly Moving The Goalposts
 
@@ -48,13 +48,16 @@ In the analogy we have been using thus far, it has been loosely based on various
 
 The spotlight may not be as bright, but, in the digital world, there still are a variety of software engineering classifications to exercise one's abilities. At a high-level, anyone can look around the job market and find roles in everything from Systems to Product to Data on through to areas like Operations, Quality Assurance (QA), and Security/Compliance. Each role demands a nearly similar set of essentials like a computer sciences degree and/or a certain number of years in the field. Yet, it is up to the individual to actualize their practice's ideal.
 
-We each practice a craft to attempt this ideal formation. And the software crafting community back in 2009 outlined its values we should all aspire to:
+We each practice a craft to attempt this ideal formation. And the software crafting community back in 2009 outlined some values we should all aspire to:
 
 - Not only working software, but also well-crafted software
 - Not only responding to change, but also steadily adding value
 - Not only individuals and interactions, but also a community of professionals
 - Not only customer collaboration, but also productive partnerships
 
-In the very least, try to become more aware of what you practice. Alternatively, ask those you are close with in social and professional circles what they observe about your craft. You might realize you have a lot to teach, and a lot to learn.
+At Ippon this past Friday, the Software Engineering practice had a day-long "dojo" or internal workshop to learn a Java framework called Quarkus. The training allowed for individuals (myself included) to play around with the new technology ideally that someday it could come in handy on a client project. Perhaps your company allows you to do something similar through an "Invest in Yourself" day or otherwise. In the very least, let us all try to become more aware of what we practice. Alternatively, ask those you are close with in social and professional circles what they observe about your craft. You might realize you have a lot to teach, and a lot to learn.
 
-[Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
+Sources and External Links:
+
+- [Manifesto for Software Craftsmanship](https://manifesto.softwarecraftsmanship.org/)
+- [Quarkus](https://quarkus.io/)
